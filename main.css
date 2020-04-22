@@ -1,0 +1,95 @@
+html {
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.3;
+  text-align: center;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.3;
+}
+h1 {
+  font-size: 1.2em;
+}
+@media only screen and (min-width: 480px) {
+.text {
+  max-width: 75vw;
+  background-color: #D7FFFB;
+  text-align: center;
+}
+@media only screen and (min-width: 900px) {
+.text {
+  max-width: 50vw;
+}
+article,
+section {
+  height: 75vw;
+}
+ul {
+  list-style-type: none;
+  padding: 1em;
+  width: 100%;
+}
+html * {
+    box-sizing: border-box;
+}
+.nav1 ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 33px -8px rgba(0,0,0,0.74);
+}
+.nav1 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+body {
+    margin: 0;
+    background-color: #D7FFFB;
+}
+@media only screen and (min-width: 600px) {
+.images {
+  max-width: 75vw;
+  float: left;
+}
+@media only screen and (min-width: 900px) {
+.images {
+  max-width: 50vw;
+  float: left;
+}
+.images {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  box-sizing: border-box;
+  justify-content: center;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  background-image: url("polkadot.jpg");
+}
+.box1,
+.box2,
+.box3 {
+  width: 1000px;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+}
+.banner {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #D7FFFB;
+}
